@@ -1,15 +1,16 @@
 --// Configurations
 
 getgenv().Settings = {
-    host = 123456789,
+    host = 4351075914,
     prefix = '/',
     fps = 3,
     admsg = 'free'
 }
 
 getgenv().Alts = {
-    123456789,
-    123456789,
+    4350715924,
+    4512917666,
+    4512913723,
 }
 
 --// Main code, made by remorse
@@ -78,7 +79,7 @@ if not ishost then
 end
 
 --// Alt control stuff
-local PackageLoader = "https://raw.githubusercontent.com/batlilman/deez/main/cmds/"
+local PackageLoader = "https://raw.githubusercontent.com/jakeystatss/cosmosscaxcsdfg/main/skiddedaltctrl"
 pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/batlilman/deez/main/module.lua"))() end)
 pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/batlilman/deez/main/anticheat.lua"))() end)
 local player = game:service"Players".LocalPlayer
